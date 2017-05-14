@@ -1,0 +1,25 @@
+{
+  "name": "2016-arquitectura-programacion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "reveal-md slides.md",
+    "build": "reveal-md slides.md --static build && cp -r assets build/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mi-mina/slides.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mi-mina/slides/issues"
+  },
+  "homepage": "https://github.com/mi-mina/slides#readme",
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
+  }
+}
