@@ -1,3 +1,3 @@
 Slides:
 
-https://mi-mina.github.io/2016-arquitectura-programacion/#/
+https://mi-mina.github.io/2017-processing
